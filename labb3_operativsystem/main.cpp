@@ -24,9 +24,7 @@ int main() {
 		std::cout << "[1] - 1 Gibibyte." << std::endl;
 		std::cout << "[2] - 1 Kibibyte." << std::endl;
 		std::cout << "Choice: ";
-
 		std::cin >> chunkChoice;
-
 		if (chunkChoice == 1) {
 			chunkSize = GiB;
 			valueMiB = 1024;
@@ -38,9 +36,6 @@ int main() {
 		else {
 			continue;
 		}
-
-
-
 		try {
 			size_t sizeCounter = 0;
 			size_t counterMiB = 0;
@@ -51,6 +46,7 @@ int main() {
 				int* myArr = new int[chunkSize / 4];
 				sizeCounter += chunkSize;
 
+				std::cout << sizeCounter % MiB << std::endl;
 				if (sizeCounter % MiB == 0) {
 					counterMiB += valueMiB;
 					std::cout << ("1) size of allocated memory: ") << counterMiB << "MiB" << std::endl;
