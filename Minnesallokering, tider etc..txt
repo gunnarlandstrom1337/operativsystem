@@ -1,4 +1,90 @@
 Minnesallokering, tider etc.
 
+**********************************
+LAA on - 64bit KiB:
 
-LAA on - 64bit GiB:
+Allocations:       -> Heap Size:   KB
+Allocations:       -> Heap Size:   KB
+
+Time:
+0s      ->     700 KB
+
+
+
+
+**********************************
+LAA on - 64bit GiB: Bad Allocation
+Total 110 592  MiB
+
+Allocations: 290 -> Heap Size: 71,17          KB
+Allocations: 409 -> Heap Size: 113 246 285,69 KB
+
+0s      -> 740   KB
+5,653s  -> 55,1  GB
+10,834  -> 60,1  GB
+18,014  -> 79,2  GB
+25.198s -> 107.2 GB
+
+**********************************
+LAA on - 32bit KiB: Bad Allocation
+Total 3738MiB
+
+Allocations: 332       -> Heap Size: 77,81         KB
+Allocations: 3 828 277 -> Heap Size: 3 962 588,95  KB
+
+0s  -> 924 KB
+6,8s -> 4   GB
+
+**********************************
+LAA on - 32bit GiB: Bad Allocation
+
+Allocations: 332 -> Heap Size: 77,81        KB
+Allocations: 344 -> Heap Size: 3 145 806,31 KB
+
+0s     -> 920 KB
+0,232s -> 2   GB
+
+**********************************
+LAA off - 64bit KiB: Bad Allocation
+
+Total 1852 MiB
+
+Allocations: 290       -> Heap Size: 71,18        KB
+Allocations: 1 897 475 -> Heap Size: 1 993 586,11 KB
+
+0s     -> 2 MB
+3,169s -> 2 GB
+
+*************************************
+LAA off - 64bit GiB: Bad Allocation
+
+Total: 1024 MiB
+
+Allocations: 290 -> Heap Size: 71,18        KB
+Allocations: 303 -> Heap Size: 2 097 224,32 KB  
+
+0s     -> 2MB
+0,077s -> 1GB
+
+****************************************
+LAA off - 32bit KiB: Bad Allocation
+Total: 1860MiB
+
+Allocations: 290       -> Heap Size: 77,83        KB
+Allocations: 1 905 337 -> Heap Size: 1 972 045,61 KB
+
+0s     912 KB
+3,323s 2   GB
+
+
+*******************************************
+LAA off - 32bit GiB: Bad Allocation
+Total: 1024 MiB
+
+Allocations: 332 -> Heap Size: 77,83 KB
+Allocations: 343 -> Heap Size: 2 097 230,29KB
+
+0s     -> 920 KB
+0,077s -> 1   GB
+
+
