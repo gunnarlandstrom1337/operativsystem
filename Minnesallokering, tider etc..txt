@@ -1,0 +1,4 @@
+Minnesallokering, tider etc.
+
+
+LAA on - 64bit GiB:

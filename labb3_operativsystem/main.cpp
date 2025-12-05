@@ -33,12 +33,9 @@ int main() {
 			chunkSize = KiB;
 			valueMiB = 1;
 		}
-		else {
-			continue;
-		}
-		try {
 			size_t sizeCounter = 0;
 			size_t counterMiB = 0;
+		try {
 			running = false;
 
 			for (size_t i = 0; ; i++) {
@@ -46,17 +43,20 @@ int main() {
 				int* myArr = new int[chunkSize / 4];
 				sizeCounter += chunkSize;
 
-				std::cout << sizeCounter % MiB << std::endl;
 				if (sizeCounter % MiB == 0) {
 					counterMiB += valueMiB;
 					std::cout << ("1) size of allocated memory: ") << counterMiB << "MiB" << std::endl;
 				}
 			}
 
-			std::cout << ("2) size of total allocated memory: ") << sizeCounter / 1024 * 1024 << "MiB" << std::endl;
+			
 		}
 		catch (std::exception const& e) {
 			std::cout << "Exception caught: " << e.what() << std::endl;
+			std::cout << ("2) size of total allocated memory: ") << counterMiB << "MiB" << std::endl;
+			while (true) {
+
+			}
 		}
 	}
 
