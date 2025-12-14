@@ -9,6 +9,7 @@ int main() {
 	size_t MiB = 1048576;
 	size_t KiB = 1024;
 	size_t valueMiB = 0;
+	size_t divider = sizeof(int);
 	while (running) {
 		int chunkChoice = 0;
 		std::cout << "Choose chunksize for each allocation" << std::endl;
@@ -30,7 +31,7 @@ int main() {
 			running = false;
 
 			for (size_t i = 0; ; i++) {
-				new int[chunkSize / 4];
+				new int[chunkSize / divider];
 				sizeCounter += chunkSize;
 				if (sizeCounter % MiB == 0) {
 					counterMiB += valueMiB;
