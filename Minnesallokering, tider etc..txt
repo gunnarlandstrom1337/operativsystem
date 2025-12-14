@@ -33,10 +33,11 @@ Allocations: 332       -> Heap Size: 77,81         KB
 Allocations: 3 828 277 -> Heap Size: 3 962 588,95  KB
 
 0s  -> 924 KB
-6,8s -> 4   GB
+6,8s -> 4  GB
 
 **********************************
 LAA on - 32bit GiB: Bad Allocation
+Total 2048MiB
 
 Allocations: 332 -> Heap Size: 77,81        KB
 Allocations: 344 -> Heap Size: 3 145 806,31 KB

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\github\\operativsystem\\labb3_operativsystem\\",
+  "WorkspaceRootPath": "C:\\github\\miun\\operativsystem\\labb3_operativsystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F4D95C2-D83A-4ED1-A1A4-A0AAE21F5252}|labb3_operativsystem.vcxproj|C:\\github\\operativsystem\\labb3_operativsystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2F4D95C2-D83A-4ED1-A1A4-A0AAE21F5252}|labb3_operativsystem.vcxproj|C:\\github\\miun\\operativsystem\\labb3_operativsystem\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2F4D95C2-D83A-4ED1-A1A4-A0AAE21F5252}|labb3_operativsystem.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 283,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\github\\operativsystem\\labb3_operativsystem\\main.cpp",
+              "DocumentMoniker": "C:\\github\\miun\\operativsystem\\labb3_operativsystem\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\github\\operativsystem\\labb3_operativsystem\\main.cpp",
+              "ToolTip": "C:\\github\\miun\\operativsystem\\labb3_operativsystem\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-30T15:27:31.149Z",
               "EditorCaption": ""

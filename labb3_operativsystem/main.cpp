@@ -1,16 +1,8 @@
-// New[]
-// try, catch
-// sizeof()
-//fixed width integer types like int64_t
-
 #include "malloc.h"
 #include <cstdlib>
 #include <iostream>
 
-
-
 int main() {
-
 	bool running = true;
 	size_t chunkSize = 0;
 	size_t GiB = 1073741824;
@@ -18,7 +10,6 @@ int main() {
 	size_t KiB = 1024;
 	size_t valueMiB = 0;
 	while (running) {
-
 		int chunkChoice = 0;
 		std::cout << "Choose chunksize for each allocation" << std::endl;
 		std::cout << "[1] - 1 Gibibyte." << std::endl;
@@ -39,17 +30,13 @@ int main() {
 			running = false;
 
 			for (size_t i = 0; ; i++) {
-
-				int* myArr = new int[chunkSize / 4];
+				new int[chunkSize / 4];
 				sizeCounter += chunkSize;
-
 				if (sizeCounter % MiB == 0) {
 					counterMiB += valueMiB;
 					std::cout << ("1) size of allocated memory: ") << counterMiB << "MiB" << std::endl;
 				}
 			}
-
-			
 		}
 		catch (std::exception const& e) {
 			std::cout << "Exception caught: " << e.what() << std::endl;
@@ -59,8 +46,5 @@ int main() {
 			}
 		}
 	}
-
-
-
 	return 0;
 }
